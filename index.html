@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Color picker with :has()</title>
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <button class="theme-button" onclick="themeDialog.showModal()">Change Theme</button>
+
+  <dialog id="themeDialog" class="color-picker">
+    <form method="dialog">
+      <fieldset>
+        <legend>Pick a color scheme</legend>
+        <div class="theme-options">
+          <label for="80s_after_dark">80s After Dark</label>
+          <input type="radio" id="80s_after_dark" name="theme">
+          <label for="8008">8008</label>
+          <input type="radio" id="8008" name="theme">
+          <label for="9009">9009</label>
+          <input type="radio" id="9009" name="theme">
+          <label for="aether">Aether</label>
+          <input type="radio" id="aether" name="theme">
+          <label for="alduin">Alduin</label>
+          <input type="radio" id="alduin" name="theme">
+          <label for="alpine">Alpine</label>
+          <input type="radio" id="alpine" name="theme">
+          <label for="anti_hero">Anti Hero</label>
+          <input type="radio" id="anti_hero" name="theme">
+          <label for="arch">Arch</label>
+          <input type="radio" id="arch" name="theme">
+          <label for="aurora">Aurora</label>
+          <input type="radio" id="aurora" name="theme">
+          <label for="beach">Beach</label>
+          <input type="radio" id="beach" name="theme">
+          <label for="bento">Bento</label>
+          <input type="radio" id="bento" name="theme">
+          <label for="bingsu">Bingsu</label>
+          <input type="radio" id="bingsu" name="theme">
+          <label for="bliss">Bliss</label>
+          <input type="radio" id="bliss" name="theme">
+          <label for="blue_dolphin">Blue Dolphin</label>
+          <input type="radio" id="blue_dolphin" name="theme">
+          <label for="blueberry_dark">Blueberry Dark</label>
+          <input type="radio" id="blueberry_dark" name="theme">
+          <label for="blueberry_light">Blueberry Light</label>
+          <input type="radio" id="blueberry_light" name="theme">
+          <label for="botanical">Botanical</label>
+          <input type="radio" id="botanical" name="theme">
+          <label for="bouquet">Bouquet</label>
+          <input type="radio" id="bouquet" name="theme">
+          <label for="breeze">Breeze</label>
+          <input type="radio" id="breeze" name="theme">
+          <label for="bushido">Bushido</label>
+          <input type="radio" id="bushido" name="theme">
+          <label for="cafe">Cafe</label>
+          <input type="radio" id="cafe" name="theme">
+          <label for="camping">Camping</label>
+          <input type="radio" id="camping" name="theme">
+          <label for="carbon">Carbon</label>
+          <input type="radio" id="carbon" name="theme">
+          <label for="catppuccin">Catppuccin</label>
+          <input type="radio" id="catppuccin" name="theme">
+          <label for="chaos_theory">Chaos Theory</label>
+          <input type="radio" id="chaos_theory" name="theme">
+          <label for="cheesecake">Cheesecake</label>
+          <input type="radio" id="cheesecake" name="theme">
+          <label for="cherry_blossom">Cherry Blossom</label>
+          <input type="radio" id="cherry_blossom" name="theme">
+          <label for="comfy">Comfy</label>
+          <input type="radio" id="comfy" name="theme">
+          <label for="copper">Copper</label>
+          <input type="radio" id="copper" name="theme">
+          <label for="creamsicle">Creamsicle</label>
+          <input type="radio" id="creamsicle" name="theme">
+          <label for="cy_red">CY Red</label>
+          <input type="radio" id="cy_red" name="theme">
+          <label for="cyberspace">Cyberspace</label>
+          <input type="radio" id="cyberspace" name="theme">
+          <label for="dark_magic_girl">Dark Magic Girl</label>
+          <input type="radio" id="dark_magic_girl" name="theme">
+          <label for="dark_note">Dark Note</label>
+          <input type="radio" id="dark_note" name="theme">
+          <label for="dark">Dark</label>
+          <input type="radio" id="dark" name="theme">
+          <label for="darling">Darling</label>
+          <input type="radio" id="darling" name="theme">
+          <label for="deku">Deku</label>
+          <input type="radio" id="deku" name="theme">
+          <label for="desert_oasis">Desert Oasis</label>
+          <input type="radio" id="desert_oasis" name="theme">
+          <label for="dev">Dev</label>
+          <input type="radio" id="dev" name="theme">
+          <label for="diner">Diner</label>
+          <input type="radio" id="diner" name="theme">
+          <label for="dino">Dino</label>
+          <input type="radio" id="dino" name="theme">
+          <label for="discord">Discord</label>
+          <input type="radio" id="discord" name="theme">
+          <label for="dmg">DMG</label>
+          <input type="radio" id="dmg" name="theme">
+          <label for="dollar">Dollar</label>
+          <input type="radio" id="dollar" name="theme">
+          <label for="dots">Dots</label>
+          <input type="radio" id="dots" name="theme">
+          <label for="dracula">Dracula</label>
+          <input type="radio" id="dracula" name="theme">
+          <label for="drowning">Drowning</label>
+          <input type="radio" id="drowning" name="theme">
+          <label for="dualshot">Dualshot</label>
+          <input type="radio" id="dualshot" name="theme">
+          <label for="earthsong">Earthsong</label>
+          <input type="radio" id="earthsong" name="theme">
+          <label for="everblush">Everblush</label>
+          <input type="radio" id="everblush" name="theme">
+          <label for="evil_eye">Evil Eye</label>
+          <input type="radio" id="evil_eye" name="theme">
+          <label for="ez_mode">EZ Mode</label>
+          <input type="radio" id="ez_mode" name="theme">
+          <label for="fire">Fire</label>
+          <input type="radio" id="fire" name="theme">
+          <label for="fledgling">Fledgling</label>
+          <input type="radio" id="fledgling" name="theme">
+          <label for="fleuriste">Fleuriste</label>
+          <input type="radio" id="fleuriste" name="theme">
+          <label for="floret">Floret</label>
+          <input type="radio" id="floret" name="theme">
+          <label for="froyo">Froyo</label>
+          <input type="radio" id="froyo" name="theme">
+          <label for="frozen_llama">Frozen Llama</label>
+          <input type="radio" id="frozen_llama" name="theme">
+          <label for="fruit_chew">Fruit Chew</label>
+          <input type="radio" id="fruit_chew" name="theme">
+          <label for="fundamentals">Fundamentals</label>
+          <input type="radio" id="fundamentals" name="theme">
+          <label for="future_funk">Future Funk</label>
+          <input type="radio" id="future_funk" name="theme">
+          <label for="github">GitHub</label>
+          <input type="radio" id="github" name="theme">
+          <label for="godspeed">Godspeed</label>
+          <input type="radio" id="godspeed" name="theme">
+          <label for="graen">Graen</label>
+          <input type="radio" id="graen" name="theme">
+          <label for="grand_prix">Grand Prix</label>
+          <input type="radio" id="grand_prix" name="theme">
+          <label for="grape">Grape</label>
+          <input type="radio" id="grape" name="theme">
+          <label for="gruvbox_dark">Gruvbox Dark</label>
+          <input type="radio" id="gruvbox_dark" name="theme">
+          <label for="gruvbox_light">Gruvbox Light</label>
+          <input type="radio" id="gruvbox_light" name="theme">
+          <label for="hammerhead">Hammerhead</label>
+          <input type="radio" id="hammerhead" name="theme">
+          <label for="hanok">Hanok</label>
+          <input type="radio" id="hanok" name="theme">
+          <label for="hedge">Hedge</label>
+          <input type="radio" id="hedge" name="theme">
+          <label for="honey">Honey</label>
+          <input type="radio" id="honey" name="theme">
+          <label for="horizon">Horizon</label>
+          <input type="radio" id="horizon" name="theme">
+          <label for="husqy">Husqy</label>
+          <input type="radio" id="husqy" name="theme">
+          <label for="iceberg_dark">Iceberg Dark</label>
+          <input type="radio" id="iceberg_dark" name="theme">
+          <label for="iceberg_light">Iceberg Light</label>
+          <input type="radio" id="iceberg_light" name="theme">
+          <label for="incognito">Incognito</label>
+          <input type="radio" id="incognito" name="theme">
+          <label for="ishtar">Ishtar</label>
+          <input type="radio" id="ishtar" name="theme">
+          <label for="iv_clover">IV Clover</label>
+          <input type="radio" id="iv_clover" name="theme">
+          <label for="iv_spade">IV Spade</label>
+          <input type="radio" id="iv_spade" name="theme">
+          <label for="joker">Joker</label>
+          <input type="radio" id="joker" name="theme">
+          <label for="laser">Laser</label>
+          <input type="radio" id="laser" name="theme">
+          <label for="lavender">Lavender</label>
+          <input type="radio" id="lavender" name="theme">
+          <label for="leather">Leather</label>
+          <input type="radio" id="leather" name="theme">
+          <label for="lil_dragon">Lil Dragon</label>
+          <input type="radio" id="lil_dragon" name="theme">
+          <label for="lilac_mist">Lilac Mist</label>
+          <input type="radio" id="lilac_mist" name="theme">
+          <label for="lime">Lime</label>
+          <input type="radio" id="lime" name="theme">
+          <label for="luna">Luna</label>
+          <input type="radio" id="luna" name="theme">
+          <label for="macroblank">Macroblank</label>
+          <input type="radio" id="macroblank" name="theme">
+          <label for="magic_girl">Magic Girl</label>
+          <input type="radio" id="magic_girl" name="theme">
+          <label for="mashu">Mashu</label>
+          <input type="radio" id="mashu" name="theme">
+          <label for="matcha_moccha">Matcha Moccha</label>
+          <input type="radio" id="matcha_moccha" name="theme">
+          <label for="material">Material</label>
+          <input type="radio" id="material" name="theme">
+          <label for="matrix">Matrix</label>
+          <input type="radio" id="matrix" name="theme">
+          <label for="menthol">Menthol</label>
+          <input type="radio" id="menthol" name="theme">
+          <label for="metaverse">Metaverse</label>
+          <input type="radio" id="metaverse" name="theme">
+          <label for="metropolis">Metropolis</label>
+          <input type="radio" id="metropolis" name="theme">
+          <label for="mexican">Mexican</label>
+          <input type="radio" id="mexican" name="theme">
+          <label for="miami_nights">Miami Nights</label>
+          <input type="radio" id="miami_nights" name="theme">
+          <label for="miami">Miami</label>
+          <input type="radio" id="miami" name="theme">
+          <label for="midnight">Midnight</label>
+          <input type="radio" id="midnight" name="theme">
+          <label for="milkshake">Milkshake</label>
+          <input type="radio" id="milkshake" name="theme">
+          <label for="mint">Mint</label>
+          <input type="radio" id="mint" name="theme">
+          <label for="mizu">Mizu</label>
+          <input type="radio" id="mizu" name="theme">
+          <label for="modern_dolch_light">Modern Dolch Light</label>
+          <input type="radio" id="modern_dolch_light" name="theme">
+          <label for="modern_dolch">Modern Dolch</label>
+          <input type="radio" id="modern_dolch" name="theme">
+          <label for="modern_ink">Modern Ink</label>
+          <input type="radio" id="modern_ink" name="theme">
+          <label for="monokai">Monokai</label>
+          <input type="radio" id="monokai" name="theme">
+          <label for="moonlight">Moonlight</label>
+          <input type="radio" id="moonlight" name="theme">
+          <label for="mountain">Mountain</label>
+          <input type="radio" id="mountain" name="theme">
+          <label for="mr_sleeves">Mr Sleeves</label>
+          <input type="radio" id="mr_sleeves" name="theme">
+          <label for="ms_cupcakes">Ms Cupcakes</label>
+          <input type="radio" id="ms_cupcakes" name="theme">
+          <label for="muted">Muted</label>
+          <input type="radio" id="muted" name="theme">
+          <label for="nautilus">Nautilus</label>
+          <input type="radio" id="nautilus" name="theme">
+          <label for="nebula">Nebula</label>
+          <input type="radio" id="nebula" name="theme">
+          <label for="night_runner">Night Runner</label>
+          <input type="radio" id="night_runner" name="theme">
+          <label for="nord_light">Nord Light</label>
+          <input type="radio" id="nord_light" name="theme">
+          <label for="nord">Nord</label>
+          <input type="radio" id="nord" name="theme">
+          <label for="norse">Norse</label>
+          <input type="radio" id="norse" name="theme">
+          <label for="oblivion">Oblivion</label>
+          <input type="radio" id="oblivion" name="theme">
+          <label for="olive">Olive</label>
+          <input type="radio" id="olive" name="theme">
+          <label for="olivia">Olivia</label>
+          <input type="radio" id="olivia" name="theme">
+          <label for="onedark">OneDark</label>
+          <input type="radio" id="onedark" name="theme">
+          <label for="our_theme">Our Theme</label>
+          <input type="radio" id="our_theme" name="theme">
+          <label for="paper">Paper</label>
+          <input type="radio" id="paper" name="theme">
+          <label for="passion_fruit">Passion Fruit</label>
+          <input type="radio" id="passion_fruit" name="theme">
+          <label for="pastel">Pastel</label>
+          <input type="radio" id="pastel" name="theme">
+          <label for="peach_blossom">Peach Blossom</label>
+          <input type="radio" id="peach_blossom" name="theme">
+          <label for="peaches">Peaches</label>
+          <input type="radio" id="peaches" name="theme">
+          <label for="phantom">Phantom</label>
+          <input type="radio" id="phantom" name="theme">
+          <label for="pink_lemonade">Pink Lemonade</label>
+          <input type="radio" id="pink_lemonade" name="theme">
+          <label for="pulse">Pulse</label>
+          <input type="radio" id="pulse" name="theme">
+          <label for="purpleish">Purpleish</label>
+          <input type="radio" id="purpleish" name="theme">
+          <label for="rainbow_trail">Rainbow Trail</label>
+          <input type="radio" id="rainbow_trail" name="theme">
+          <label for="red_dragon">Red Dragon</label>
+          <input type="radio" id="red_dragon" name="theme">
+          <label for="red_samurai">Red Samurai</label>
+          <input type="radio" id="red_samurai" name="theme">
+          <label for="repose_dark">Repose Dark</label>
+          <input type="radio" id="repose_dark" name="theme">
+          <label for="repose_light">Repose Light</label>
+          <input type="radio" id="repose_light" name="theme">
+          <label for="retro">Retro</label>
+          <input type="radio" id="retro" name="theme">
+          <label for="retrocast">Retrocast</label>
+          <input type="radio" id="retrocast" name="theme">
+          <label for="rgb">RGB</label>
+          <input type="radio" id="rgb" name="theme">
+          <label for="rose_pine_dawn">Rose Pine Dawn</label>
+          <input type="radio" id="rose_pine_dawn" name="theme">
+          <label for="rose_pine_moon">Rose Pine Moon</label>
+          <input type="radio" id="rose_pine_moon" name="theme">
+          <label for="rose_pine">Rose Pine</label>
+          <input type="radio" id="rose_pine" name="theme">
+          <label for="rudy">Rudy</label>
+          <input type="radio" id="rudy" name="theme">
+          <label for="ryujinscales">Ryujinscales</label>
+          <input type="radio" id="ryujinscales" name="theme">
+          <label for="serika_dark">Serika Dark</label>
+          <input type="radio" id="serika_dark" name="theme">
+          <label for="serika">Serika</label>
+          <input type="radio" id="serika" name="theme">
+          <label for="sewing_tin_light">Sewing Tin Light</label>
+          <input type="radio" id="sewing_tin_light" name="theme">
+          <label for="sewing_tin">Sewing Tin</label>
+          <input type="radio" id="sewing_tin" name="theme">
+          <label for="shadow">Shadow</label>
+          <input type="radio" id="shadow" name="theme">
+          <label for="shoko">Shoko</label>
+          <input type="radio" id="shoko" name="theme">
+          <label for="slambook">Slambook</label>
+          <input type="radio" id="slambook" name="theme">
+          <label for="snes">SNES</label>
+          <input type="radio" id="snes" name="theme">
+          <label for="soaring_skies">Soaring Skies</label>
+          <input type="radio" id="soaring_skies" name="theme">
+          <label for="solarized_dark">Solarized Dark</label>
+          <input type="radio" id="solarized_dark" name="theme">
+          <label for="solarized_light">Solarized Light</label>
+          <input type="radio" id="solarized_light" name="theme">
+          <label for="solarized_osaka">Solarized Osaka</label>
+          <input type="radio" id="solarized_osaka" name="theme">
+          <label for="sonokai">Sonokai</label>
+          <input type="radio" id="sonokai" name="theme">
+          <label for="stealth">Stealth</label>
+          <input type="radio" id="stealth" name="theme">
+          <label for="strawberry">Strawberry</label>
+          <input type="radio" id="strawberry" name="theme">
+          <label for="striker">Striker</label>
+          <input type="radio" id="striker" name="theme">
+          <label for="suisei">Suisei</label>
+          <input type="radio" id="suisei" name="theme">
+          <label for="sunset">Sunset</label>
+          <input type="radio" id="sunset" name="theme">
+          <label for="superuser">Superuser</label>
+          <input type="radio" id="superuser" name="theme">
+          <label for="sweden">Sweden</label>
+          <input type="radio" id="sweden" name="theme">
+          <label for="tangerine">Tangerine</label>
+          <input type="radio" id="tangerine" name="theme">
+          <label for="taro">Taro</label>
+          <input type="radio" id="taro" name="theme">
+          <label for="terminal">Terminal</label>
+          <input type="radio" id="terminal" name="theme">
+          <label for="terra">Terra</label>
+          <input type="radio" id="terra" name="theme">
+          <label for="terrazzo">Terrazzo</label>
+          <input type="radio" id="terrazzo" name="theme">
+          <label for="terror_below">Terror Below</label>
+          <input type="radio" id="terror_below" name="theme">
+          <label for="tiramisu">Tiramisu</label>
+          <input type="radio" id="tiramisu" name="theme">
+          <label for="trackday">Trackday</label>
+          <input type="radio" id="trackday" name="theme">
+          <label for="trance">Trance</label>
+          <input type="radio" id="trance" name="theme">
+          <label for="tron_orange">Tron Orange</label>
+          <input type="radio" id="tron_orange" name="theme">
+          <label for="vaporwave">Vaporwave</label>
+          <input type="radio" id="vaporwave" name="theme">
+          <label for="vesper">Vesper</label>
+          <input type="radio" id="vesper" name="theme">
+          <label for="viridescent">Viridescent</label>
+          <input type="radio" id="viridescent" name="theme">
+          <label for="voc">VOC</label>
+          <input type="radio" id="voc" name="theme">
+          <label for="vscode">VSCode</label>
+          <input type="radio" id="vscode" name="theme">
+          <label for="watermelon">Watermelon</label>
+          <input type="radio" id="watermelon" name="theme">
+          <label for="wavez">Wavez</label>
+          <input type="radio" id="wavez" name="theme">
+          <label for="witch_girl">Witch Girl</label>
+          <input type="radio" id="witch_girl" name="theme">
+          <label for="zzzz">zzzz</label>
+          <input type="radio" id="zzzz" name="theme">
+        </div>
+        <button type="submit" class="close-button">Close</button>
+      </fieldset>
+    </form>
+  </dialog>
+
+<main>
+  <div class="wrapper">
+    <h1>Color theme's the easy way</h1>
+   
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
