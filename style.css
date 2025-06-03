@@ -969,7 +969,924 @@ h3 {
   --clr-text: hsl(0 0% 90%);
   --clr-heading: hsl(0 0% 80%);
 }
-:root:has(#dark_magic
+:root:has(#dark_magic_girl:checked) {
+  --clr-body-bg: hsl(0, 0%, 10%);
+  --clr-card-bg: hsl(0, 0%, 20%);
+  --clr-text: hsl(0, 0%, 90%);
+  --clr-heading: hsl(0, 0%, 80%);
+}
+
+:root:has(#dark_note:checked) {
+  --clr-body-bg: hsl(0, 0%, 10%);
+  --clr-card-bg: hsl(0, 0%, 20%);
+  --clr-text: hsl(0, 0%, 90%);
+  --clr-heading: hsl(0, 0%, 80%);
+}
+
+:root:has(#dark:checked) {
+  --clr-body-bg: hsl(0, 0%, 10%);
+  --clr-card-bg: hsl(0, 0%, 20%);
+  --clr-text: hsl(0, 0%, 90%);
+  --clr-heading: hsl(0, 0%, 80%);
+}
+
+:root:has(#darling:checked) {
+  --clr-body-bg: hsl(0, 0%, 10%);
+  --clr-card-bg: hsl(0, 0%, 20%);
+  --clr-text: hsl(0, 0%, 90%);
+  --clr-heading: hsl(0, 0%, 80%);
+}
+
+:root:has(#deku:checked) {
+  --clr-body-bg: hsl(180, 50%, 15%);
+  --clr-card-bg: hsl(180, 50%, 20%);
+  --clr-text: hsl(180, 50%, 90%);
+  --clr-heading: hsl(180, 50%, 80%);
+}
+:root:has(#desert_oasis:checked) {
+  --clr-body-bg: hsl(40, 100%, 15%);
+  --clr-card-bg: hsl(40, 100%, 20%);
+  --clr-text: hsl(40, 100%, 90%);
+  --clr-heading: hsl(40, 100%, 80%);
+}
+:root:has(#dev:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#diner:checked) {
+  --clr-body-bg: hsl(210, 30%, 15%);
+  --clr-card-bg: hsl(210, 30%, 20%);
+  --clr-text: hsl(210, 30%, 90%);
+  --clr-heading: hsl(210, 30%, 80%);
+}
+:root:has(#dino:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#discord:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#dmg:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#dollar:checked) {
+  --clr-body-bg: hsl(60, 50%, 15%);
+  --clr-card-bg: hsl(60, 50%, 20%);
+  --clr-text: hsl(60, 50%, 90%);
+  --clr-heading: hsl(60, 50%, 80%);
+}
+:root:has(#dots:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#dracula:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#drowning:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#dualshot:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#earthsong:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#everblush:checked) {
+  --clr-body-bg: hsl(340, 50%, 15%);
+  --clr-card-bg: hsl(340, 50%, 20%);
+  --clr-text: hsl(340, 50%, 90%);
+  --clr-heading: hsl(340, 50%, 80%);
+}
+:root:has(#evil_eye:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#ez_mode:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#fire:checked) {
+  --clr-body-bg: hsl(0, 100%, 15%);
+  --clr-card-bg: hsl(0, 100%, 20%);
+  --clr-text: hsl(0, 100%, 90%);
+  --clr-heading: hsl(0, 100%, 80%);
+}
+:root:has(#fledgling:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#fleuriste:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#floret:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#froyo:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#frozen_llama:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#fruit_chew:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#fundamentals:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#future_funk:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#github:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#godspeed:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#graen:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#grand_prix:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#grape:checked) {
+  --clr-body-bg: hsl(270, 50%, 15%);
+  --clr-card-bg: hsl(270, 50%, 20%);
+  --clr-text: hsl(270, 50%, 90%);
+  --clr-heading: hsl(270, 50%, 80%);
+}
+:root:has(#gruvbox_dark:checked) {
+  --clr-body-bg: hsl(30, 50%, 15%);
+  --clr-card-bg: hsl(30, 50%, 20%);
+  --clr-text: hsl(30, 50%, 90%);
+  --clr-heading: hsl(30, 50%, 80%);
+}
+:root:has(#gruvbox_light:checked) {
+  --clr-body-bg: hsl(30, 50%, 90%);
+  --clr-card-bg: hsl(30, 50%, 100%);
+  --clr-text: hsl(30, 50%, 15%);
+  --clr-heading: hsl(30, 50%, 25%);
+}
+:root:has(#hammerhead:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#hanok:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#hedge:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#honey:checked) {
+  --clr-body-bg: hsl(30, 50%, 15%);
+  --clr-card-bg: hsl(30, 50%, 20%);
+  --clr-text: hsl(30, 50%, 90%);
+  --clr-heading: hsl(30, 50%, 80%);
+}
+:root:has(#horizon:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#husqy:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#iceberg_dark:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#iceberg_light:checked) {
+  --clr-body-bg: hsl(210, 50%, 90%);
+  --clr-card-bg: hsl(210, 50%, 100%);
+  --clr-text: hsl(210, 50%, 15%);
+  --clr-heading: hsl(210, 50%, 25%);
+}
+:root:has(#incognito:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#ishtar:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#iv_clover:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#iv_spade:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#joker:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#laser:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#lavender:checked) {
+  --clr-body-bg: hsl(270, 50%, 15%);
+  --clr-card-bg: hsl(270, 50%, 20%);
+  --clr-text: hsl(270, 50%, 90%);
+  --clr-heading: hsl(270, 50%, 80%);
+}
+:root:has(#leather:checked) {
+  --clr-body-bg: hsl(30, 50%, 15%);
+  --clr-card-bg: hsl(30, 50%, 20%);
+  --clr-text: hsl(30, 50%, 90%);
+  --clr-heading: hsl(30, 50%, 80%);
+}
+:root:has(#lil_dragon:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#lilac_mist:checked) {
+  --clr-body-bg: hsl(270, 50%, 15%);
+  --clr-card-bg: hsl(270, 50%, 20%);
+  --clr-text: hsl(270, 50%, 90%);
+  --clr-heading: hsl(270, 50%, 80%);
+}
+:root:has(#lime:checked) {
+  --clr-body-bg: hsl(90, 50%, 15%);
+  --clr-card-bg: hsl(90, 50%, 20%);
+  --clr-text: hsl(90, 50%, 90%);
+  --clr-heading: hsl(90, 50%, 80%);
+}
+:root:has(#luna:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#macroblank:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#magic_girl:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#mashu:checked) {
+  --clr-body-bg: hsl(30, 100%, 15%);
+  --clr-card-bg: hsl(30, 100%, 20%);
+  --clr-text: hsl(30, 100%, 90%);
+  --clr-heading: hsl(30, 100%, 80%);
+}
+:root:has(#matcha_moccha:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#material:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#matrix:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#menthol:checked) {
+  --clr-body-bg: hsl(180, 50%, 15%);
+  --clr-card-bg: hsl(180, 50%, 20%);
+  --clr-text: hsl(180, 50%, 90%);
+  --clr-heading: hsl(180, 50%, 80%);
+}
+:root:has(#metaverse:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#metropolis:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#mexican:checked) {
+  --clr-body-bg: hsl(30, 50%, 15%);
+  --clr-card-bg: hsl(30, 50%, 20%);
+  --clr-text: hsl(30, 50%, 90%);
+  --clr-heading: hsl(30, 50%, 80%);
+}
+:root:has(#miami_nights:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#miami:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#midnight:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#milkshake:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#mint:checked) {
+  --clr-body-bg: hsl(150, 50%, 15%);
+  --clr-card-bg: hsl(150, 50%, 20%);
+  --clr-text: hsl(150, 50%, 90%);
+  --clr-heading: hsl(150, 50%, 80%);
+}
+:root:has(#mizu:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#modern_dolch_light:checked) {
+  --clr-body-bg: hsl(240, 50%, 90%);
+  --clr-card-bg: hsl(240, 50%, 100%);
+  --clr-text: hsl(240, 50%, 15%);
+  --clr-heading: hsl(240, 50%, 25%);
+}
+:root:has(#modern_dolch:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#modern_ink:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#monokai:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#moonlight:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#mountain:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+} 
+:root:has(#mr_sleeves:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#ms_cupcakes:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#muted:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#nautilus:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#nebula:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#night_runner:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#nord_light:checked) {
+  --clr-body-bg: hsl(210, 50%, 90%);
+  --clr-card-bg: hsl(210, 50%, 100%);
+  --clr-text: hsl(210, 50%, 15%);
+  --clr-heading: hsl(210, 50%, 25%);
+}
+:root:has(#nord:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#norse:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#oblivion:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#olive:checked) {
+  --clr-body-bg: hsl(120, 50%, 15%);
+  --clr-card-bg: hsl(120, 50%, 20%);
+  --clr-text: hsl(120, 50%, 90%);
+  --clr-heading: hsl(120, 50%, 80%);
+}
+:root:has(#olivia:checked) {
+  --clr-body-bg: hsl(300, 50%, 15%);
+  --clr-card-bg: hsl(300, 50%, 20%);
+  --clr-text: hsl(300, 50%, 90%);
+  --clr-heading: hsl(300, 50%, 80%);
+}
+:root:has(#onedark:checked) {
+  --clr-body-bg: hsl(210, 50%, 15%);
+  --clr-card-bg: hsl(210, 50%, 20%);
+  --clr-text: hsl(210, 50%, 90%);
+  --clr-heading: hsl(210, 50%, 80%);
+}
+:root:has(#our_theme:checked) {
+  --clr-body-bg: hsl(240, 50%, 15%);
+  --clr-card-bg: hsl(240, 50%, 20%);
+  --clr-text: hsl(240, 50%, 90%);
+  --clr-heading: hsl(240, 50%, 80%);
+}
+:root:has(#paper:checked) {
+  --clr-body-bg: hsl(0, 0%, 95%);
+  --clr-card-bg: hsl(0, 0%, 90%);
+  --clr-text: hsl(0, 0%, 20%);
+  --clr-heading: hsl(0, 0%, 30%);
+}
+:root:has(#passion_fruit:checked) {
+  --clr-body-bg: hsl(340, 70%, 50%);
+  --clr-card-bg: hsl(340, 70%, 60%);
+  --clr-text: hsl(340, 70%, 10%);
+  --clr-heading: hsl(340, 70%, 20%);
+}
+:root:has(#pastel:checked) {
+  --clr-body-bg: hsl(210, 50%, 90%);
+  --clr-card-bg: hsl(210, 50%, 85%);
+  --clr-text: hsl(210, 50%, 20%);
+  --clr-heading: hsl(210, 50%, 30%);
+}
+:root:has(#peach_blossom:checked) {
+  --clr-body-bg: hsl(30, 100%, 90%);
+  --clr-card-bg: hsl(30, 100%, 85%);
+  --clr-text: hsl(30, 100%, 20%);
+  --clr-heading: hsl(30, 100%, 30%);
+}
+:root:has(#peaches:checked) {
+  --clr-body-bg: hsl(30, 80%, 95%);
+  --clr-card-bg: hsl(30, 80%, 90%);
+  --clr-text: hsl(30, 80%, 20%);
+  --clr-heading: hsl(30, 80%, 30%);
+}
+:root:has(#phantom:checked) {
+  --clr-body-bg: hsl(240, 30%, 20%);
+  --clr-card-bg: hsl(240, 30%, 25%);
+  --clr-text: hsl(240, 30%, 90%);
+  --clr-heading: hsl(240, 30%, 80%);
+}
+:root:has(#pink_lemonade:checked) {
+  --clr-body-bg: hsl(350, 100%, 90%);
+  --clr-card-bg: hsl(350, 100%, 85%);
+  --clr-text: hsl(350, 100%, 20%);
+  --clr-heading: hsl(350, 100%, 30%);
+}
+:root:has(#pulse:checked) {
+  --clr-body-bg: hsl(200, 100%, 50%);
+  --clr-card-bg: hsl(200, 100%, 60%);
+  --clr-text: hsl(200, 100%, 10%);
+  --clr-heading: hsl(200, 100%, 20%);
+}
+:root:has(#purpleish:checked) {
+  --clr-body-bg: hsl(270, 50%, 30%);
+  --clr-card-bg: hsl(270, 50%, 35%);
+  --clr-text: hsl(270, 50%, 90%);
+  --clr-heading: hsl(270, 50%, 80%);
+}
+:root:has(#rainbow_trail:checked) {
+  --clr-body-bg: hsl(0, 0%, 100%);
+  --clr-card-bg: hsl(0, 0%, 95%);
+  --clr-text: hsl(0, 0%, 20%);
+  --clr-heading: hsl(0, 0%, 30%);
+}
+:root:has(#red_dragon:checked) {
+  --clr-body-bg: hsl(0, 100%, 20%);
+  --clr-card-bg: hsl(0, 100%, 25%);
+  --clr-text: hsl(0, 100%, 90%);
+  --clr-heading: hsl(0, 100%, 80%);
+}
+:root:has(#red_samurai:checked) {
+  --clr-body-bg: hsl(0, 80%, 15%);
+  --clr-card-bg: hsl(0, 80%, 20%);
+  --clr-text: hsl(0, 80%, 90%);
+  --clr-heading: hsl(0, 80%, 80%);
+}
+:root:has(#repose_dark:checked) {
+  --clr-body-bg: hsl(240, 20%, 10%);
+  --clr-card-bg: hsl(240, 20%, 15%);
+  --clr-text: hsl(240, 20%, 90%);
+  --clr-heading: hsl(240, 20%, 80%);
+}
+:root:has(#repose_light:checked) {
+  --clr-body-bg: hsl(240, 20%, 95%);
+  --clr-card-bg: hsl(240, 20%, 90%);
+  --clr-text: hsl(240, 20%, 20%);
+  --clr-heading: hsl(240, 20%, 30%);
+}
+:root:has(#retro:checked) {
+  --clr-body-bg: hsl(60, 100%, 50%);
+  --clr-card-bg: hsl(60, 100%, 60%);
+  --clr-text: hsl(60, 100%, 10%);
+  --clr-heading: hsl(60, 100%, 20%);
+}
+:root:has(#retrocast:checked) {
+  --clr-body-bg: hsl(180, 100%, 50%);
+  --clr-card-bg: hsl(180, 100%, 60%);
+  --clr-text: hsl(180, 100%, 10%);
+  --clr-heading: hsl(180, 100%, 20%);
+}
+:root:has(#rgb:checked) {
+  --clr-body-bg: hsl(0, 0%, 0%);
+  --clr-card-bg: hsl(0, 0%, 10%);
+  --clr-text: hsl(0, 0%, 100%);
+  --clr-heading: hsl(0, 0%, 90%);
+}
+:root:has(#rose_pine_dawn:checked) {
+  --clr-body-bg: hsl(210, 30%, 90%);
+  --clr-card-bg: hsl(210, 30%, 85%);
+  --clr-text: hsl(210, 30%, 20%);
+  --clr-heading: hsl(210, 30%, 30%);
+}
+:root:has(#rose_pine_moon:checked) {
+  --clr-body-bg: hsl(210, 30%, 80%);
+  --clr-card-bg: hsl(210, 30%, 75%);
+  --clr-text: hsl(210, 30%, 20%);
+  --clr-heading: hsl(210, 30%, 30%);
+}
+:root:has(#rose_pine:checked) {
+  --clr-body-bg: hsl(210, 30%, 70%);
+  --clr-card-bg: hsl(210, 30%, 65%);
+  --clr-text: hsl(210, 30%, 20%);
+  --clr-heading: hsl(210, 30%, 30%);
+}
+:root:has(#rudy:checked) {
+  --clr-body-bg: hsl(0, 100%, 40%);
+  --clr-card-bg: hsl(0, 100%, 50%);
+  --clr-text: hsl(0, 100%, 10%);
+  --clr-heading: hsl(0, 100%, 20%);
+}
+:root:has(#ryujinscales:checked) {
+  --clr-body-bg: hsl(180, 100%, 30%);
+  --clr-card-bg: hsl(180, 100%, 35%);
+  --clr-text: hsl(180, 100%, 90%);
+  --clr-heading: hsl(180, 100%, 80%);
+}
+:root:has(#serika_dark:checked) {
+  --clr-body-bg: hsl(240, 20%, 10%);
+  --clr-card-bg: hsl(240, 20%, 15%);
+  --clr-text: hsl(240, 20%, 90%);
+  --clr-heading: hsl(240, 20%, 80%);
+}
+:root:has(#serika:checked) {
+  --clr-body-bg: hsl(240, 20%, 95%);
+  --clr-card-bg: hsl(240, 20%, 90%);
+  --clr-text: hsl(240, 20%, 20%);
+  --clr-heading: hsl(240, 20%, 30%);
+}
+:root:has(#sewing_tin_light:checked) {
+  --clr-body-bg: hsl(60, 100%, 90%);
+  --clr-card-bg: hsl(60, 100%, 85%);
+  --clr-text: hsl(60, 100%, 20%);
+  --clr-heading: hsl(60, 100%, 30%);
+}
+:root:has(#sewing_tin:checked) {
+  --clr-body-bg: hsl(60, 100%, 80%);
+  --clr-card-bg: hsl(60, 100%, 75%);
+  --clr-text: hsl(60, 100%, 20%);
+  --clr-heading: hsl(60, 100%, 30%);
+}
+:root:has(#shadow:checked) {
+  --clr-body-bg: hsl(240, 30%, 10%);
+  --clr-card-bg: hsl(240, 30%, 15%);
+  --clr-text: hsl(240, 30%, 90%);
+  --clr-heading: hsl(240, 30%, 80%);
+}
+:root:has(#shoko:checked) {
+  --clr-body-bg: hsl(300, 100%, 90%);
+  --clr-card-bg: hsl(300, 100%, 85%);
+  --clr-text: hsl(300, 100%, 20%);
+  --clr-heading: hsl(300, 100%, 30%);
+}
+:root:has(#slambook:checked) {
+  --clr-body-bg: hsl(0, 0%, 100%);
+  --clr-card-bg: hsl(0, 0%, 95%);
+  --clr-text: hsl(0, 0%, 20%);
+  --clr-heading: hsl(0, 0%, 30%);
+}
+:root:has(#snes:checked) {
+  --clr-body-bg: hsl(120, 100%, 20%);
+  --clr-card-bg: hsl(120, 100%, 25%);
+  --clr-text: hsl(120, 100%, 90%);
+  --clr-heading: hsl(120, 100%, 80%);
+}
+:root:has(#soaring_skies:checked) {
+  --clr-body-bg: hsl(200, 100%, 90%);
+  --clr-card-bg: hsl(200, 100%, 85%);
+  --clr-text: hsl(200, 100%, 20%);
+  --clr-heading: hsl(200, 100%, 30%);
+}
+:root:has(#solarized_dark:checked) {
+  --clr-body-bg: hsl(210, 20%, 10%);
+  --clr-card-bg: hsl(210, 20%, 15%);
+  --clr-text: hsl(210, 20%, 90%);
+  --clr-heading: hsl(210, 20%, 80%);
+}
+:root:has(#solarized_light:checked) {
+  --clr-body-bg: hsl(210, 20%, 95%);
+  --clr-card-bg: hsl(210, 20%, 90%);
+  --clr-text: hsl(210, 20%, 20%);
+  --clr-heading: hsl(210, 20%, 30%);
+}
+:root:has(#solarized_osaka:checked) {
+  --clr-body-bg: hsl(210, 20%, 80%);
+  --clr-card-bg: hsl(210, 20%, 75%);
+  --clr-text: hsl(210, 20%, 20%);
+  --clr-heading: hsl(210, 20%, 30%);
+}
+:root:has(#sonokai:checked) {
+  --clr-body-bg: hsl(240, 100%, 30%);
+  --clr-card-bg: hsl(240, 100%, 35%);
+  --clr-text: hsl(240, 100%, 90%);
+  --clr-heading: hsl(240, 100%, 80%);
+}
+:root:has(#stealth:checked) {
+  --clr-body-bg: hsl(0, 0%, 10%);
+  --clr-card-bg: hsl(0, 0%, 15%);
+  --clr-text: hsl(0, 0%, 90%);
+  --clr-heading: hsl(0, 0%, 80%);
+}
+:root:has(#strawberry:checked) {
+  --clr-body-bg: hsl(0, 100%, 70%);
+  --clr-card-bg: hsl(0, 100%, 75%);
+  --clr-text: hsl(0, 100%, 20%);
+  --clr-heading: hsl(0, 100%, 30%);
+}
+:root:has(#striker:checked) {
+  --clr-body-bg: hsl(0, 100%, 40%);
+  --clr-card-bg: hsl(0, 100%, 50%);
+  --clr-text: hsl(0, 100%, 10%);
+  --clr-heading: hsl(0, 100%, 20%);
+}
+:root:has(#suisei:checked) {
+  --clr-body-bg: hsl(240, 100%, 30%);
+  --clr-card-bg: hsl(240, 100%, 35%);
+  --clr-text: hsl(240, 100%, 90%);
+  --clr-heading: hsl(240, 100%, 80%);
+}
+:root:has(#sunset:checked) {
+  --clr-body-bg: hsl(30, 100%, 50%);
+  --clr-card-bg: hsl(30, 100%, 60%);
+  --clr-text: hsl(30, 100%, 10%);
+  --clr-heading: hsl(30, 100%, 20%);
+}
+:root:has(#superuser:checked) {
+  --clr-body-bg: hsl(0, 0%, 10%);
+  --clr-card-bg: hsl(0, 0%, 15%);
+  --clr-text: hsl(0, 0%, 90%);
+  --clr-heading: hsl(0, 0%, 80%);
+}
+:root:has(#sweden:checked) {
+  --clr-body-bg: hsl(240, 100%, 50%);
+  --clr-card-bg: hsl(240, 100%, 60%);
+  --clr-text: hsl(240, 100%, 10%);
+  --clr-heading: hsl(240, 100%, 20%);
+}
+:root:has(#tangerine:checked) {
+  --clr-body-bg: hsl(30, 100%, 50%);
+  --clr-card-bg: hsl(30, 100%, 60%);
+  --clr-text: hsl(30, 100%, 10%);
+  --clr-heading: hsl(30, 100%, 20%);
+}
+:root:has(#taro:checked) {
+  --clr-body-bg: hsl(240, 100%, 80%);
+  --clr-card-bg: hsl(240, 100%, 75%);
+  --clr-text: hsl(240, 100%, 20%);
+  --clr-heading: hsl(240, 100%, 30%);
+}
+:root:has(#terminal:checked) {
+  --clr-body-bg: hsl(0, 0%, 10%);
+  --clr-card-bg: hsl(0, 0%, 15%);
+  --clr-text: hsl(0, 0%, 90%);
+  --clr-heading: hsl(0, 0%, 80%);
+}
+:root:has(#terra:checked) {
+  --clr-body-bg: hsl(120, 100%, 30%);
+  --clr-card-bg: hsl(120, 100%, 35%);
+  --clr-text: hsl(120, 100%, 90%);
+  --clr-heading: hsl(120, 100%, 80%);
+}
+:root:has(#terrazzo:checked) {
+  --clr-body-bg: hsl(0, 0%, 95%);
+  --clr-card-bg: hsl(0, 0%, 90%);
+  --clr-text: hsl(0, 0%, 20%);
+  --clr-heading: hsl(0, 0%, 30%);
+}
+:root:has(#terror_below:checked) {
+  --clr-body-bg: hsl(240, 100%, 10%);
+  --clr-card-bg: hsl(240, 100%, 15%);
+  --clr-text: hsl(240, 100%, 90%);
+  --clr-heading: hsl(240, 100%, 80%);
+}
+:root:has(#tiramisu:checked) {
+  --clr-body-bg: hsl(30, 100%, 80%);
+  --clr-card-bg: hsl(30, 100%, 75%);
+  --clr-text: hsl(30, 100%, 20%);
+  --clr-heading: hsl(30, 100%, 30%);
+}
+:root:has(#trackday:checked) {
+  --clr-body-bg: hsl(0, 0%, 10%);
+  --clr-card-bg: hsl(0, 0%, 15%);
+  --clr-text: hsl(0, 0%, 90%);
+  --clr-heading: hsl(0, 0%, 80%);
+}
+:root:has(#trance:checked) {
+  --clr-body-bg: hsl(240, 100%, 30%);
+  --clr-card-bg: hsl(240, 100%, 35%);
+  --clr-text: hsl(240, 100%, 90%);
+  --clr-heading: hsl(240, 100%, 80%);
+}
+
+:root:has(#tron_orange:checked) {
+  --clr-body-bg: hsl(30, 100%, 20%);
+  --clr-card-bg: hsl(30, 100%, 25%);
+  --clr-text: hsl(30, 100%, 90%);
+  --clr-heading: hsl(30, 100%, 80%);
+}
+:root:has(#vaporwave:checked) {
+  --clr-body-bg: hsl(300, 100%, 20%);
+  --clr-card-bg: hsl(300, 100%, 25%);
+  --clr-text: hsl(300, 100%, 90%);
+  --clr-heading: hsl(300, 100%, 80%);
+}
+:root:has(#vesper:checked) {
+  --clr-body-bg: hsl(240, 100%, 20%);
+  --clr-card-bg: hsl(240, 100%, 25%);
+  --clr-text: hsl(240, 100%, 90%);
+  --clr-heading: hsl(240, 100%, 80%);
+}
+:root:has(#viridescent:checked) {
+  --clr-body-bg: hsl(120, 100%, 20%);
+  --clr-card-bg: hsl(120, 100%, 25%);
+  --clr-text: hsl(120, 100%, 90%);
+  --clr-heading: hsl(120, 100%, 80%);
+}
+:root:has(#voc:checked) {
+  --clr-body-bg: hsl(240, 100%, 20%);
+  --clr-card-bg: hsl(240, 100%, 25%);
+  --clr-text: hsl(240, 100%, 90%);
+  --clr-heading: hsl(240, 100%, 80%);
+}
+:root:has(#vscode:checked) {
+  --clr-body-bg: hsl(210, 100%, 20%);
+  --clr-card-bg: hsl(210, 100%, 25%);
+  --clr-text: hsl(210, 100%, 90%);
+  --clr-heading: hsl(210, 100%, 80%);
+}
+:root:has(#watermelon:checked) {
+  --clr-body-bg: hsl(120, 100%, 20%);
+  --clr-card-bg: hsl(120, 100%, 25%);
+  --clr-text: hsl(120, 100%, 90%);
+  --clr-heading: hsl(120, 100%, 80%);
+}
+:root:has(#wavez:checked) {
+  --clr-body-bg: hsl(210, 100%, 20%);
+  --clr-card-bg: hsl(210, 100%, 25%);
+  --clr-text: hsl(210, 100%, 90%);
+  --clr-heading: hsl(210, 100%, 80%);
+} 
+:root:has(#witch_girl:checked) {
+  --clr-body-bg: hsl(300, 100%, 20%);
+  --clr-card-bg: hsl(300, 100%, 25%);
+  --clr-text: hsl(300, 100%, 90%);
+  --clr-heading: hsl(300, 100%, 80%);
+}
+
 
 .zzzz{
  --bg-color: #333a45;
